@@ -11,7 +11,7 @@ const Footer = () =>
       <Container>
         <Row>
           <Col size="lg-3">
-            <a className="footer-logo" href="/"><img alt="Stockman's" src={footerLogo} className="img-fluid"></img></a>
+            <a className="footer-logo" href="/"><img alt="Stockman's" src={footerLogo}></img></a>
             <p className="copyright">&copy; Copyright 2017 Stockman's Harness and Saddle Shop, Inc.</p>
           </Col>
           <Col size="lg-3">

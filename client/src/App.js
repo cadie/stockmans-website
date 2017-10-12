@@ -4,9 +4,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import English from "./pages/English";
 import Western from "./pages/Western";
-import NewsEvents from "./pages/NewsEvents";
 import Specials from "./pages/Specials";
 import TackExchange from "./pages/TackExchange";
+import Repair from "./pages/Repair";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
@@ -26,8 +26,8 @@ const App = () =>
         <Route exact path="/english" component={English} />
         <Route exact path="/western" component={Western} />
         <Route exact path="/tack-exchange" component={TackExchange} />
+        <Route exact path="/repair" component={Repair} />
         <Route exact path="/specials" component={Specials} />
-        <Route exact path="/news-events" component={NewsEvents} />
         <Route exact path="/contact" component={Contact} />
         <Route component={NoMatch} />
       </Switch>

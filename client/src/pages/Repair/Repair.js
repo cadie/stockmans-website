@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
 
-const NewsEvents = () =>
+const Repair = () =>
   <Container fluid>
     <Row>
       <Col size="md-12">
@@ -18,4 +18,4 @@ const NewsEvents = () =>
     </Row>
   </Container>;
 
-export default NewsEvents;
+export default Repair;

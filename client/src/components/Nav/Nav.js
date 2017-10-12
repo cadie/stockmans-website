@@ -17,23 +17,20 @@ const Nav = () =>
       <li className={window.location.pathname === "/about" ? "active nav-item" : "nav-item"}>
         <Link to="/about" className="nav-link">About</Link>
       </li>
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Saddles
-        </a>
-        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/english" className="dropdown-item">English</Link>
-          <Link to="/western" className="dropdown-item">Western</Link>
-        </div>
+      <li className={window.location.pathname === "/english" ? "active nav-item" : "nav-item"}>
+        <Link to="/english" className="nav-link">English</Link>
+      </li>
+      <li className={window.location.pathname === "/western" ? "active nav-item" : "nav-item"}>
+        <Link to="/western" className="nav-link">Western</Link>
       </li>
       <li className={window.location.pathname === "/tack-exchange" ? "active nav-item" : "nav-item"}>
         <Link to="/tack-exchange" className="nav-link">Tack Exchange</Link>
       </li>
+      <li className={window.location.pathname === "/repair" ? "active nav-item" : "nav-item"}>
+        <Link to="/repair" className="nav-link">Repair</Link>
+      </li>
       <li className={window.location.pathname === "/specials" ? "active nav-item" : "nav-item"}>
         <Link to="/specials" className="nav-link">Specials</Link>
-      </li>
-      <li className={window.location.pathname === "/news-events" ? "active nav-item" : "nav-item"}>
-        <Link to="/news-events" className="nav-link">News & Events</Link>
       </li>
       <li className={window.location.pathname === "/contact" ? "active nav-item" : "nav-item"}>
         <Link to="/contact" className="nav-link">Contact</Link>
