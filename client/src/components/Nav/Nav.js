@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () =>
 <nav className="navbar navbar-expand-lg navbar-light mr-auto">
-  <a className="navbar-brand" href="index.html"><img alt="Stockmans" src={mainLogo} className="img-fluid"></img></a>
+  <a className="navbar-brand" href="/"><img alt="Stockmans" src={mainLogo} className="img-fluid"></img></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
