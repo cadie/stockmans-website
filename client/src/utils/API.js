@@ -5,6 +5,10 @@ export default {
   getSpecials: function() {
     return axios.get("/api/specials");
   },
+  // Gets all tackexchange
+  getTackExchange: function() {
+    return axios.get("/api/tack-exchange");
+  },
   // Gets the book with the given id
   getSpecial: function(id) {
     return axios.get("/api/specials/" + id);

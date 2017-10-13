@@ -25,20 +25,26 @@ class Specials extends Component {
 
   render() {
     return (
-      <Container fluid>
-        <Row>
-          <Col size="md-12">
-            <Jumbotron>
+      <div>
+        <Jumbotron>
+          <Container>
+            <Row>
               <h1>Specials</h1>
-            </Jumbotron>
-            {this.state.specials.map(special => (
-              <p>
-                {special.description}, {special.restrictions}, {special.expiration}
-              </p>
-            ))}
-          </Col>
-        </Row>
-      </Container>
+            </Row>
+          </Container>
+        </Jumbotron>
+        <Container>
+          <Row>
+            <Col size="md-12">
+              {this.state.specials.map(special => (
+                <p>
+                  {special.description}, {special.restrictions}, {special.expiration}
+                </p>
+              ))}
+            </Col>
+          </Row>
+        </Container>
+      </div>
     );
   }
 }

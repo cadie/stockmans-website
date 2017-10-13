@@ -1,3 +1,4 @@
 module.exports = {
-  Special: require("./special")
+  Special: require("./special"),
+  TackExchange: require("./tackExchange")
 };
