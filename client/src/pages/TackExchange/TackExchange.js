@@ -1,9 +1,12 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
+import SpecialsCallout from "../../components/SpecialsCallout";
 
 const TackExchange = () =>
-  <Container fluid>
+<div>
+  <SpecialsCallout></SpecialsCallout>
+  <Container>
     <Row>
       <Col size="md-12">
         <Jumbotron>
@@ -17,5 +20,5 @@ const TackExchange = () =>
       </Col>
     </Row>
   </Container>;
-
+</div>
 export default TackExchange;

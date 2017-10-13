@@ -29,8 +29,8 @@ const Footer = () =>
             </p>
           </Col>
           <Col size="lg-2">
-            <a className="social-media-icons" href="/"><img className="facebook" alt="Facebook" src={Facebook}></img></a>
-            <a className="social-media-icons" href="/"><img className="instagram" alt="Instagram" src={Instagram}></img></a>
+            <a className="social-media-icons" href="https://www.facebook.com/Stockmans-Harness-Saddle-Shop-289230570985/" target="_blank"><img className="facebook" alt="Facebook" src={Facebook}></img></a>
+            <a className="social-media-icons" href="https://www.instagram.com/stockmansharness/" target="_blank"><img className="instagram" alt="Instagram" src={Instagram}></img></a>
           </Col>
           <Col size="lg-3">
             <p>
