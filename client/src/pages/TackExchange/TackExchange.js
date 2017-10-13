@@ -1,21 +1,60 @@
-import React from "react";
+import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
+import API from "../../utils/API";
 
-const TackExchange = () =>
-  <Container fluid>
-    <Row>
-      <Col size="md-12">
+class TackExchange extends Component {
+  state = {
+    tackExchange: [],
+    style: "",
+    description: "",
+    seat: "",
+    tree: "",
+    price: "",
+    condition: ""
+  };
+
+  componentDidMount() {
+    this.loadTackExchange();
+  }
+
+  loadTackExchange = () => {
+    API.getTackExchange()
+      .then(res =>
+        this.setState({ tackExchange: res.data, style: "", description: "", seat: "", tree: "", price: "", condition: "" })
+      )
+      .catch(err => console.log(err));
+  };
+
+  render() {
+    return (
+      <div>
         <Jumbotron>
-          <h1>Home Page</h1>
-          <h1>
-            <span role="img" aria-label="Face With Rolling Eyes Emoji">
-              👨🏽‍🌾
-            </span>
-          </h1>
+          <Container>
+            <Row>
+              <h1>Tack Exchange</h1>
+            </Row>
+          </Container>
         </Jumbotron>
-      </Col>
-    </Row>
-  </Container>;
+        <Container>
+          <Row>
+            <Col size="md-12">
+              {this.state.tackExchange.map(tackExchange => (
+                <p>
+                  {tackExchange.style}<br></br>
+                  {tackExchange.description}<br></br>
+                  {tackExchange.seat}<br></br>
+                  {tackExchange.tree}<br></br>
+                  {tackExchange.price}<br></br>
+                  {tackExchange.condition}
+                </p>
+              ))}
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    );
+  }
+}
 
 export default TackExchange;
