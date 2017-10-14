@@ -1,3 +1,19 @@
 body, html {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
+
+/*CONTACT.JS STYLES*/
+
+.contact-header {
+  margin: 30px;
+}
+
+.contact-page-location p {
+  margin-bottom: 0px;
+}
+
+.location-social-icons{
+  width: 30px;
+  margin-right: 15px;
+  margin-bottom: 100px;
+}

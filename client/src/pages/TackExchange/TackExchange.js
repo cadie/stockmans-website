@@ -1,16 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
-<<<<<<< HEAD
-import SpecialsCallout from "../../components/SpecialsCallout";
-
-const TackExchange = () =>
-<div>
-  <SpecialsCallout></SpecialsCallout>
-  <Container>
-    <Row>
-      <Col size="md-12">
-=======
 import API from "../../utils/API";
 
 class TackExchange extends Component {
@@ -39,7 +29,6 @@ class TackExchange extends Component {
   render() {
     return (
       <div>
->>>>>>> 75ec622d9db91ff1f29d9fc4c0dcdba7859310ab
         <Jumbotron>
           <Container>
             <Row>
@@ -47,12 +36,6 @@ class TackExchange extends Component {
             </Row>
           </Container>
         </Jumbotron>
-<<<<<<< HEAD
-      </Col>
-    </Row>
-  </Container>;
-</div>
-=======
         <Container>
           <Row>
             <Col size="md-12">
@@ -74,5 +57,4 @@ class TackExchange extends Component {
   }
 }
 
->>>>>>> 75ec622d9db91ff1f29d9fc4c0dcdba7859310ab
 export default TackExchange;
