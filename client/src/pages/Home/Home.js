@@ -5,9 +5,22 @@ import Button from "../../components/Button";
 import Card from "../../components/Card";
 import BlackCallout from "../../components/BlackCallout";
 import Carousel from "../../components/Carousel";
-import AriatLogo from "./imgs/ariat-logo.png";
 import MailingList from "../../components/MailingList";
 import SpecialsCallout from "../../components/SpecialsCallout";
+import AriatLogo from "./imgs/ariat.png";
+import CharlesOwen from "./imgs/charlesowen.png";
+import Kerrits from "./imgs/kerrits.png";
+import Ovation from "./imgs/ovation.png";
+import Pessoa from "./imgs/pessoa.png";
+import Romph from "./imgs/romph.png";
+import Tredstep from "./imgs/tredstep.png";
+import Abetta from "./imgs/abetta.png";
+import Bates from "./imgs/bates.png";
+import Fabtron from "./imgs/fabtron.png";
+import Mtoulouse from "./imgs/mtoulouse.png";
+import Stubben from "./imgs/stubben.png";
+import Walsh from "./imgs/walsh.png";
+import Wintec from "./imgs/wintec.png";
 
 
 
@@ -60,8 +73,15 @@ const Home = () =>
     </BlackCallout>
     <Carousel>
       <Col size="md-12">
-        <h2 className="text-center">WE PROUDLY CARRY THESE BRANDS:</h2>
-        <img src={AriatLogo} alt="Ariat"/>
+        <h2 className="text-center brand-logos-header">WE PROUDLY CARRY THESE BRANDS:</h2>
+        <img className="brand-logos" src={AriatLogo} alt="Ariat"/>
+        <img className="brand-logos" src={CharlesOwen} alt="Charles Owen"/>
+        <img className="brand-logos" src={Kerrits} alt="Kerrits"/>
+        <img className="brand-logos" src={Ovation} alt="Ovation"/>
+        <img className="brand-logos" src={Pessoa} alt="Pessoa"/>
+        <img className="brand-logos" src={Romph} alt="Romph"/>
+        <img className="brand-logos" src={Abetta} alt="Abetta"/>
+        <img className="brand-logos-last" src={Bates} alt="Bates"/>
       </Col>
     </Carousel>
     <MailingList>
