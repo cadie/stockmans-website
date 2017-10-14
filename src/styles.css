@@ -1,0 +1,107 @@
+body, html {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+/*HOME.JS STYLES*/
+
+.brand-logos {
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+.brand-logos-last {
+  margin-bottom: 30px;
+}
+
+.brand-logos-header {
+  margin-top: 30px;
+}
+
+/*ABOUT.JS STYLES*/
+
+.about-heading {
+  margin-bottom: 0px;
+  background-color: #527A92;
+  padding: 30px 0px;
+  color: white;
+}
+
+.body-text {
+  margin: 30px 0px;
+}
+
+.old-and-new {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+
+
+/*CONTACT.JS STYLES*/
+
+.contact-header {
+  margin: 0px 0px 30px 0px;
+  background-color: #527A92;
+  padding: 30px 0px;
+  color: white;
+}
+
+.contact-page-location p {
+  margin-bottom: 0px;
+}
+
+.contact-page-location {
+  margin-bottom: 100px;
+}
+
+.message-header {
+  margin-bottom: 30px;
+}
+
+.message-area {
+  margin-bottom: 100px;
+}
+
+.message-submit-button {
+  margin-bottom: 100px;
+}
+
+form a.btn {
+  color: white !important;
+}
+
+/*ENGLISH.JS + WESTERN STYLES*/
+
+.brand-logos-english {
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+
+.brand-logos-english-last {
+  margin-bottom: 100px;
+}
+
+/*REPAIR.JS STYLES*/
+
+.repair-heading {
+  margin-bottom: 0px;
+  background-color: #527A92;
+  padding: 30px 0px;
+  color: white;
+}
+
+.repair-info-cards {
+  margin: 30px 0px 30px 0px;
+}
+
+.repair-image-1{
+  width: 48%;
+  margin-right: 1%;
+  margin-bottom: 60px;
+}
+
+.repair-image-2{
+  width: 48%;
+  margin-left: 1%;
+  margin-bottom: 60px;
+}

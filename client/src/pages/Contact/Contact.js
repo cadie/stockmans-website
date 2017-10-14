@@ -26,15 +26,10 @@ const Contact = () =>
         </div>
         <br/>
         <h5>Stockman's Harness and Saddle Shop, Inc.</h5>
-        <br/>
         <p>1820 Lee Road</p>
         <p>Orlando, FL. 32810</p>
-        <br/>
         <p>(407) 295-0331</p>
         <p>Stockmans@cfl.rr.com</p>
-        <br/>
-        <a href="https://www.facebook.com/Stockmans-Harness-Saddle-Shop-289230570985/" target="_blank"><img className="location-social-icons" src={Facebook} alt="Facebook"/></a>
-        <a href="https://www.instagram.com/stockmansharness/" target="_blank"><img  className="location-social-icons" src={Instagram} alt="Instagram"/></a>
       </div>
       <div className="col-md-6">
         <h2 className="message-header">LEAVE A MESSAGE</h2>

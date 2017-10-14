@@ -1,0 +1,23 @@
+.mailing-list {
+  background-color: #567a94;
+  padding: 30px 0px;
+}
+
+.mailing-header {
+  color: white;
+  margin-bottom: 0px;
+}
+
+.mailing-text {
+  color: white;
+  margin-bottom: 0px;
+}
+
+.email-input {
+  padding-top: 10px;
+}
+
+.input-group-addon {
+  background-color: #114A6E;
+  color: white;
+}
