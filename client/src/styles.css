@@ -5,7 +5,10 @@ body, html {
 /*CONTACT.JS STYLES*/
 
 .contact-header {
-  margin: 30px;
+  margin: 0px 0px 30px 0px;
+  background-color: #527A92;
+  padding: 30px 0px;
+  color: white;
 }
 
 .contact-page-location p {
@@ -16,4 +19,20 @@ body, html {
   width: 30px;
   margin-right: 15px;
   margin-bottom: 100px;
+}
+
+.message-header {
+  margin-bottom: 30px;
+}
+
+.message-area {
+  margin-bottom: 100px;
+}
+
+.message-submit-button {
+  margin-bottom: 100px;
+}
+
+form a.btn {
+  color: white !important;
 }
