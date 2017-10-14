@@ -62,7 +62,6 @@ const Western = () =>
         <img className="brand-logos-english-last" src={Bates} alt="Bates"/>
       </Col>
     </Carousel>
-  </Jumbotron>
   <Footer />
   </div>
 
