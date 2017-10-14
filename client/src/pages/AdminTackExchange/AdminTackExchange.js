@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import API from "../../utils/API";
 import "../AdminSpecials/AdminSpecials.css"
 
-class TackExchange extends Component {
+class AdminTackExchange extends Component {
   state = {
     tackExchange: [],
     style: "",
@@ -198,4 +198,4 @@ class TackExchange extends Component {
 }
 }
 
-export default TackExchange;
+export default AdminTackExchange;

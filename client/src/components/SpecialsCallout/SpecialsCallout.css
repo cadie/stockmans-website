@@ -2,7 +2,7 @@
   background-color: #1a1a1a;
 }
 
-.specials-callout-text {
+.specials-callout-text, .specials-callout-text a {
   color: white;
   font-size: .90em;
   margin-bottom: 0px;
