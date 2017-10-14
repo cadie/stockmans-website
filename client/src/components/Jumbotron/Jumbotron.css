@@ -4,11 +4,13 @@
   border-radius: 0;
   position: relative;
   margin-bottom: 0px;
+  padding: 30px 0;
 }
 
 .home-jumbotron {
   background: url('../../pages/Home/imgs/stockmanscollage.jpg') top center no-repeat;
   background-size:cover;
+  padding: 60px 0;
 }
 
 .home-jumbotron:before {
