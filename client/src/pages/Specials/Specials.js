@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 import API from "../../utils/API";
 
 class Specials extends Component {
@@ -26,6 +28,9 @@ class Specials extends Component {
   render() {
     return (
       <div>
+        <Container>
+          <Nav />
+        </Container>
         <Jumbotron>
           <Container>
             <Row>
@@ -44,6 +49,7 @@ class Specials extends Component {
             </Col>
           </Row>
         </Container>
+        <Footer />
       </div>
     );
   }

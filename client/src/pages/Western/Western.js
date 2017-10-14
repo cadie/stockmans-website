@@ -1,11 +1,16 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 import Jumbotron from "../../components/Jumbotron";
 import SpecialsCallout from "../../components/SpecialsCallout";
 
 
 const Western = () =>
 <div>
+  <Container>
+    <Nav />
+  </Container>
   <SpecialsCallout></SpecialsCallout>
   <Jumbotron>
     <Container>
@@ -19,5 +24,6 @@ const Western = () =>
       </Row>
     </Container>
   </Jumbotron>
+  <Footer />
 </div>
 export default Western;

@@ -1,0 +1,19 @@
+form.form-signin {
+    margin: 100px auto 300px auto;
+    width: 300px;
+}
+.form-signin input.form-control {
+    margin-bottom: 10px;
+}
+
+h2.form-signin-heading {
+    margin-bottom: 15px;
+}
+
+form.form-signin button {
+    margin-top: 15px;
+}
+
+form.form-signin p.small {
+  margin-top:20px;
+}

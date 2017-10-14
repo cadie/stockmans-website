@@ -5,10 +5,15 @@ import SpecialsCallout from "../../components/SpecialsCallout";
 import Facebook from "./img/facebook_1.svg";
 import Instagram from "./img/instagram.svg";
 import Button from "../../components/Button";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 
 const Contact = () =>
 
 <div>
+  <Container>
+    <Nav />
+  </Container>
   <SpecialsCallout />
   <h1 className="text-center contact-header">CONTACT US</h1>
   <Container>
@@ -58,6 +63,7 @@ const Contact = () =>
       </div>
     </Row>
   </Container>
+  <Footer />
 </div>
 
 export default Contact;

@@ -2,10 +2,15 @@ import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
 import SpecialsCallout from "../../components/SpecialsCallout";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 
 const About = () =>
 
 <div>
+  <Container>
+    <Nav />
+  </Container>
   <SpecialsCallout>
   </SpecialsCallout>
     <Container>
@@ -20,6 +25,7 @@ const About = () =>
         </Col>
       </Row>
     </Container>
+    <Footer />
 </div>;
 
 export default About;

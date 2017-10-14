@@ -4,9 +4,14 @@ import Jumbotron from "../../components/Jumbotron";
 import Card from "../../components/Card";
 import Button from "../../components/Button";
 import SpecialsCallout from "../../components/SpecialsCallout";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 
 const English = () =>
   <div>
+    <Container>
+      <Nav />
+    </Container>
     <SpecialsCallout></SpecialsCallout>
     <Jumbotron>
       <Container>
@@ -42,6 +47,7 @@ const English = () =>
         </Col>
       </Row>
     </Container>
+    <Footer />
   </div>
 
 export default English;

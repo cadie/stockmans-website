@@ -1,11 +1,16 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 import SpecialsCallout from "../../components/SpecialsCallout";
 
 const Repair = () =>
 
 <div>
+  <Container>
+    <Nav />
+  </Container>
   <SpecialsCallout></SpecialsCallout>
   <Jumbotron>
     <Container>
@@ -21,5 +26,6 @@ const Repair = () =>
       </Row>
     </Container>
   </Jumbotron>
+  <Footer />
 </div>
 export default Repair;

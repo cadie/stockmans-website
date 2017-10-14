@@ -5,6 +5,8 @@ import Button from "../../components/Button";
 import Card from "../../components/Card";
 import BlackCallout from "../../components/BlackCallout";
 import Carousel from "../../components/Carousel";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 import AriatLogo from "./imgs/ariat-logo.png";
 import MailingList from "../../components/MailingList";
 import SpecialsCallout from "../../components/SpecialsCallout";
@@ -13,6 +15,9 @@ import SpecialsCallout from "../../components/SpecialsCallout";
 
 const Home = () =>
   <div>
+    <Container>
+      <Nav />
+    </Container>
     <SpecialsCallout>
     </SpecialsCallout>
     <Jumbotron>
@@ -64,8 +69,8 @@ const Home = () =>
         <img src={AriatLogo} alt="Ariat"/>
       </Col>
     </Carousel>
-    <MailingList>
-    </MailingList>
+    <MailingList />
+    <Footer />
   </div>;
 
 export default Home;

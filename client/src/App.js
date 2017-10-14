@@ -8,18 +8,16 @@ import Specials from "./pages/Specials";
 import TackExchange from "./pages/TackExchange";
 import Repair from "./pages/Repair";
 import Contact from "./pages/Contact";
+import Admin from "./pages/Admin";
+import AdminTackExchange from "./pages/AdminTackExchange";
+import AdminSpecials from "./pages/AdminSpecials";
 import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
 import { Col, Row, Container } from "./components/Grid";
 import "./styles.css";
 
 const App = () =>
   <Router>
     <div>
-      <Container>
-        <Nav />
-      </Container>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
@@ -29,9 +27,11 @@ const App = () =>
         <Route exact path="/repair" component={Repair} />
         <Route exact path="/specials" component={Specials} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/admin" component={Admin} />
+        <Route exact path="/admin/tack-exchange" component={AdminTackExchange} />
+        <Route exact path="/admin/specials" component={AdminSpecials} />
         <Route component={NoMatch} />
       </Switch>
-      <Footer />
     </div>
   </Router>;
 

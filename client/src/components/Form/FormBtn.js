@@ -1,8 +1,6 @@
 import React from "react";
 
-const Form = props =>
+export const FormBtn = props =>
   <button {...props} style={{ float: "right" }} className="btn btn-success">
     {props.children}
   </button>;
-
-export default Form;
