@@ -11,11 +11,17 @@ import StoreSix from "./imgs/store6.JPG";
 import StoreSeven from "./imgs/store7.JPG";
 import StoreEight from "./imgs/store8.JPG";
 import OldAndNew from "./imgs/oldandnewstore.jpg";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 
 const About = () =>
 
 <div>
-  <SpecialsCallout />
+  <Container>
+    <Nav />
+  </Container>
+  <SpecialsCallout>
+  </SpecialsCallout>
   <div className="about-heading">
     <Container>
       <h1 className="text-center">About Us</h1>
@@ -36,6 +42,7 @@ const About = () =>
   <Container>
     <img className="old-and-new" src={OldAndNew} alt="Old and New Store"/>
   </Container>
+<Footer />
 </div>;
 
 export default About;

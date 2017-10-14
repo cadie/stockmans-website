@@ -14,9 +14,14 @@ import Romph from "./imgs/romph.png";
 import Tredstep from "./imgs/tredstep.png";
 import Abetta from "./imgs/abetta.png";
 import Bates from "./imgs/bates.png";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 
 const English = () =>
   <div>
+    <Container>
+      <Nav />
+    </Container>
     <SpecialsCallout></SpecialsCallout>
     <Jumbotron>
       <Container>
@@ -64,6 +69,7 @@ const English = () =>
         <img className="brand-logos-english-last" src={Bates} alt="Bates"/>
       </Col>
     </Carousel>
+    <Footer />
   </div>
 
 export default English;

@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 import SpecialsCallout from "../../components/SpecialsCallout";
 import ImageOne from "./img/repairimage1.jpg";
 import ImageTwo from "./img/repairimage2.jpg";
@@ -8,7 +10,10 @@ import ImageTwo from "./img/repairimage2.jpg";
 const Repair = () =>
 
 <div>
-  <SpecialsCallout />
+  <Container>
+    <Nav />
+  </Container>
+  <SpecialsCallout></SpecialsCallout>
   <div className="repair-heading">
     <Container>
       <h1 className="text-center">REPAIR</h1>
@@ -40,5 +45,6 @@ const Repair = () =>
       <img className="repair-image-2" src={ImageTwo} alt=""/>
     </Container>
   </div>
+  <Footer />
 </div>
 export default Repair;

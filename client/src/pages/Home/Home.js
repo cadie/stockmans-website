@@ -21,11 +21,16 @@ import Mtoulouse from "./imgs/mtoulouse.png";
 import Stubben from "./imgs/stubben.png";
 import Walsh from "./imgs/walsh.png";
 import Wintec from "./imgs/wintec.png";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 
 
 
 const Home = () =>
   <div>
+    <Container>
+      <Nav />
+    </Container>
     <SpecialsCallout>
     </SpecialsCallout>
     <Jumbotron>
@@ -84,8 +89,8 @@ const Home = () =>
         <img className="brand-logos-last" src={Bates} alt="Bates"/>
       </Col>
     </Carousel>
-    <MailingList>
-    </MailingList>
+    <MailingList />
+    <Footer />
   </div>;
 
 export default Home;

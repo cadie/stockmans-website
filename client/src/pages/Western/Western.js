@@ -1,5 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 import Jumbotron from "../../components/Jumbotron";
 import Carousel from "../../components/Carousel";
 import Card from "../../components/Card";
@@ -17,6 +19,9 @@ import Bates from "../English/imgs/bates.png";
 
 const Western = () =>
   <div>
+      <Container>
+        <Nav />
+      </Container>
     <SpecialsCallout></SpecialsCallout>
     <Jumbotron>
       <Container>
@@ -57,6 +62,8 @@ const Western = () =>
         <img className="brand-logos-english-last" src={Bates} alt="Bates"/>
       </Col>
     </Carousel>
+  </Jumbotron>
+  <Footer />
   </div>
 
 export default Western;

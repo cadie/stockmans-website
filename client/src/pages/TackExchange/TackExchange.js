@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 import API from "../../utils/API";
 
 class TackExchange extends Component {
@@ -29,6 +31,9 @@ class TackExchange extends Component {
   render() {
     return (
       <div>
+        <Container>
+          <Nav />
+        </Container>
         <Jumbotron>
           <Container>
             <Row>
@@ -52,6 +57,7 @@ class TackExchange extends Component {
             </Col>
           </Row>
         </Container>
+        <Footer />
       </div>
     );
   }

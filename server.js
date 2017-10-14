@@ -22,6 +22,9 @@ mongoose.connect(
     useMongoClient: true
   }
 );
+const db = mongoose.connection;
+// on mondo error
+db.on('error', console.error.bind(console, 'connection error:'));
 
 // Start the API server
 app.listen(PORT, function() {
